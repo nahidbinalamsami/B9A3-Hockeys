@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en"data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my Hockeys Website</title>
+    <!-- Tailwind & daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+    /* font style */
+    .font-manrope{
+        font-family: 'Manrope', sans-serif;
+
+    }
+    
+
+</style>
+</head>
+<body class="font-manrope">
+    <header>
+      <!-- nav bar-->
+      <section class="container mx-auto lg:px-24 ">
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+              </div>
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <li><a href="">Home</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">Pages</a></li>
+                <li><a href="">blog</a></li>
+                <li><a href="">Contact </a></li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost text-[35px] font-bold">Hockey<span class="text-red-500">'</span>s </a>
+          </div>
+          <div class="navbar-center hidden  lg:flex gap-5">
+            <a class="text-red-500" href="">Home </a>
+            <a href="">About</a>
+            <a href="">Pages</a>
+            <a href="">Blog </a>
+            <a href="">Contact</a>
+          </div>
+          <div class="navbar-end gap-2">
+            <img class="hidden lg:flex w-8 " src="./Images/search.png" alt="">
+            <a class="btn bg-red-500 text-white font-bold">Get Ticket</a>
+            
+          </div>
+        </div>
+
+      </section>
+
+
+        <!-- Banner Section -->
+       <section>
+        <div class="container mx-auto lg:px-24 px-8">
+          <div class="carousel w-full">
+              <div id="slide1" class="carousel-item relative w-full">
+                <img src="./Images/1.png" class="w-full mt-5"  />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide4" class="btn btn-circle">❮</a> 
+                  <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
+              </div> 
+              <div id="slide2" class="carousel-item relative w-full">
+                <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide1" class="btn btn-circle">❮</a> 
+                  <a href="#slide3" class="btn btn-circle">❯</a>
+                </div>
+              </div> 
+              <div id="slide3" class="carousel-item relative w-full">
+                <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide2" class="btn btn-circle">❮</a> 
+                  <a href="#slide4" class="btn btn-circle">❯</a>
+                </div>
+              </div> 
+              <div id="slide4" class="carousel-item relative w-full">
+                <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide3" class="btn btn-circle">❮</a> 
+                  <a href="#slide1" class="btn btn-circle">❯</a>
+                </div>
+              </div>
+            </div>
+  
+         </div>
+       </section>
+    </header>
+    <main>
+        <!-- Professional Hockeys -->
+        <div class="container mx-auto lg:px-24 px-8 text-center mt-20">
+                <h1 class="font-extrabold text-4xl">Professional Hockeys Club</h1>
+                <p class="font-medium">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat 
+                    <br>dolor. Purus urna in sit nullam proin. </p>
+            </div>
+
+        <!-- carcal facility  -->
+        <div class="container mx-auto lg:px-24 px-8 grid grid-cols-1  lg:grid-cols-4 md:grid-cols-2">
+           <!-- prayer Facility -->
+            <div class="text-center mt-10">
+                <div class="radial-progress text-red-500" style="--value:87;" role="progressbar "><span class="text-black font-bold text-xl">70%</span></div>
+                <h1 class="p-3 font-bold text-xl ">Prayer Facility</h1>
+                <p class="">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+            </div>
+            <!-- Experienced Coach -->
+            <div class="text-center mt-10">
+                <div class="radial-progress text-green-500" style="--value:95;" role="progressbar "><span class="text-black font-bold text-xl">95%</span></div>
+                <h1 class="p-3 font-bold text-xl ">Experienced Coach</h1>
+                <p class="">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+            </div>
+            <!-- Senior Player -->
+            <div class="text-center mt-10">
+                <div class="radial-progress text-yellow-300" style="--value:90;" role="progressbar "> <span class="text-black font-bold text-xl">90%</span></div>
+                <h1 class="p-3 font-bold text-xl ">Senior player</h1>
+                <p class="">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+            </div>
+            <!-- Training Ground -->
+            <div class="text-center mt-10">
+                <div class="radial-progress text-blue-600" style="--value:80;" role="progressbar "><span class="text-black font-bold text-xl">80%</span></div>
+                <h1 class="p-3 font-bold text-xl ">Senior player</h1>
+                <p class="">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+            </div>
+
+
+        </div>
+
+        <!-- programming section -->
+        <section>
+          <div class="container mx-auto lg:px-24 px-8 text-center mt-20 ">
+            <h1 class="font-extrabold text-4xl">Program Sections</h1>
+            <p class="font-medium">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat 
+                <br>dolor. Purus urna in sit nullam proin. </p>
+        </div>
+        </section>
+        <!-- programming banner section -->
+        <section class="container mx-auto  lg:px-24 px-8">
+          <div class="flex flex-col lg:flex-row gap-4 mt-14">
+            <div class="bg-no-repeat h-80 bg-center lg:w-full bg-cover rounded-lg px-8 py-24 space-y-3" style="background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('./Images/2.png')">
+              <h3 class="text-[28px] text-white font-bold">Junior Program </h3>
+              <p class="text-white ">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in. </p>
+                <button class=" btn bg-red-600 font-bold border-none text-white">Register Now!</button>
+
+            </div>
+            <div class="bg-no-repeat h-80 bg-center lg:w-full bg-cover rounded-lg px-8 py-24 space-y-3" style="background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('./Images/3.png')">
+              <h3 class="text-[28px] text-white font-bold">Teenager Program</h3>
+              <p class="text-white ">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in. </p>
+                <button class=" btn bg-red-600 font-bold border-none text-white">Register Now!</button>
+
+            </div>
+          </div>
+          <div>
+            <div class="bg-no-repeat h-[440px] bg-center mt-5 lg:w-full bg-cover rounded-lg px-8 py-24 space-y-3" style="background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('./Images/4.png')">
+              <div style="padding-top: 8rem;">
+                <h3 class="font-bold text-[28px] text-white">
+                  Professional Program
+                </h3>
+                <p class="text-white">
+                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit <br>
+                   enim sagittis turpis in magna. Id et sed euismod natoque amet <br> nunc  morbi nulla. Tortor congue sed et in.
+                </p>
+                <div class="btn bg-red-600 font-bold border-none text-white">Register Now! </div>
+              </div>
+            </div>
+          </div>
+         </section>
+         <!-- our new product -->
+         <div class="container mx-auto lg:px-24 px-8 text-center mt-10">
+          <h1 class="text-[36px] font-bold">Our New Products</h1>
+          <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+         </div>
+
+         <!-- new product banner -->
+         
+         
+         <!-- Clints Question -->
+          <section class="container mx-auto lg:px-24 px-8">
+            <div class=" text-center mt-10 mb-10">
+            <h1 class="text-[36px] font-bold">Clients Question</h1>
+            <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+           </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 shadow rounded-xl">
+              <div>
+                <img class="" src="./Images/11.png" alt="">
+              </div>
+              <div>
+                <!-- 1st -->
+                <div class="collapse collapse-plus bg-base-200 mb-2">
+                  <input type="radio" name="my-accordion-3" checked="checked" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Our Equipment
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, unde.</p>
+                  </div>
+                </div>
+                <!-- 2nd -->
+                <div class="collapse collapse-plus bg-base-200 mb-2">
+                  <input type="radio" name="my-accordion-3" checked="checked" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Hockey Traning
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, unde.</p>
+                  </div>
+                </div>
+                <!-- 3rd -->
+                <div class="collapse collapse-plus bg-base-200 mb-2">
+                  <input type="radio" name="my-accordion-3" checked="checked" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Privet Lesson
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, unde.</p>
+                  </div>
+                </div>
+                <!-- 4rth -->
+                <div class="collapse collapse-plus bg-base-200 mb-2">
+                  <input type="radio" name="my-accordion-3" checked="checked" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Ski Touring
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, unde.</p>
+                  </div>
+                </div>
+                <!-- 5th -->
+                <div class="collapse collapse-plus bg-base-200 mb-2">
+                  <input type="radio" name="my-accordion-3" checked="checked" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Booking
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, unde.</p>
+                  </div>
+                </div>
+                <!-- 6th -->
+                <div class="collapse collapse-plus bg-base-200 mb-1">
+                  <input type="radio" name="my-accordion-3" checked="checked" /> 
+                  <div class="collapse-title text-xl font-medium">
+                    Pricing
+                  </div>
+                  <div class="collapse-content"> 
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, unde.</p>
+                  </div>
+                </div>
+
+              
+              
+              
+              </div>
+
+            </div>
+
+          </section>
+          <!-- get in  -->
+        <section class="container mx-auto lg:px-24 px-8 ">
+          <div class=" text-center mt-10 mb-10">
+            <h1 class="text-[36px] font-bold">Get In Touch</h1>
+            <p>Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+           </div>
+        </section>
+        <section class="container mx-auto lg:px-24 px-8">
+          <div class="flex-col-1 lg:flex justify-between ">
+            <div class="">
+
+              <div class="bg-[#BCED6D1A] lg:w-[370px] h-[200px] py-[40px] px-[30px] rounded-lg mb-3">
+                <img src="./Images/Group 1171275317.png" alt="">
+                <p class="pt-3 font-bold">
+                  Phone Number : 
+                </p>
+                <h3 class="pt-3 font-bold">
+                  (+62) 123-321-543
+                </h3>
+              </div>
+              <div class="bg-[#ad8d3a1a] lg:w-[370px] h-[200px] py-[40px] px-[30px] rounded-lg mb-3">
+                <img src="./Images/Group 1171275318.png" alt="">
+                <p class="pt-3 font-bold">
+                  Email :
+                </p>
+                <h3 class="pt-3 font-bold">
+                  saminahidbin@gmail.com
+                </h3>
+              </div>
+              <div class="bg-[#629CF31A] lg:w-[370px] h-[200px] py-[40px] px-[30px] rounded-lg mb-3">
+                <img src="./Images/Group 1171275321.png" alt="">
+                <p class="pt-3 font-bold">
+                  Location
+                </p>
+                <h3 class="pt-3 font-bold">
+                  152/1 Mohakhali Wireless Gate
+                </h3>
+              </div>
+            </div>
+            <form action="">
+              <div class="lg:flex gap-3">
+                <label for="Name"> <span class="text-[20px] font-extrabold">Your Name</span> <br>
+                <input class="lg:w-[300px] h-[60px] bg-slate-100 rounded-lg border-none px-4" type="text" name="" id="" placeholder="Enter Your Full name">
+                </label> <br>
+                <label for="Name"> <span class="text-[20px] font-extrabold">Email</span> <br>
+                  <input class="lg:w-[300px] h-[60px] bg-slate-100 rounded-lg border-none px-4" type="text" name="" id="" placeholder="Enter your Email">
+              </div>
+
+
+              <div class="lg:flex gap-3 mt-5">
+                <label for="Name"> <span class="text-[20px] font-extrabold">Subject</span> <br>
+                <input class="lg:w-[300px] h-[60px] bg-slate-100 rounded-lg border-none px-4" type="text" name="" id="" placeholder="Enter your subject">
+                </label> <br>
+                <label for="Name"> <span class="text-[20px] font-extrabold">Phone Number</span> <br>
+                  <input class="lg:w-[300px] h-[60px] bg-slate-100 rounded-lg border-none px-4" type="text" name="" id="" placeholder="Enter your phone number">
+              </div>
+
+              <div class="mt-5">
+                <label for=""><span class="text-[20px] font-extrabold">Massage</span>
+                  <textarea class="borde-[2px] bg-slate-100 rounded-lg w-full px-3" name="" placeholder="Write your massage" id="" cols="30" rows="10"></textarea>
+
+                </label>
+              </div>
+              <input class="bg-red-500 border-none w-full text-white p-2 font-extrabold rounded-lg text-[20px] mt-10" type="submit" value="Send Message">
+              
+            </form>
+          </div>
+
+
+        </section>
+
+
+
+            
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
